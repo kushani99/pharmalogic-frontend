@@ -1,0 +1,71 @@
+
+.sidebar {
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    width: 260px; 
+}
+
+
+.sidebar-brand {
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    padding: 15px 20px !important; 
+}
+
+.sidebar-brand h4 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    color: #3b82f6 !important;
+}
+
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-weight: 500;
+    font-size: 0.9rem; 
+    margin: 2px 12px; 
+    padding: 8px 15px !important;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #3b82f6 !important;
+    transform: translateX(3px);
+}
+
+.sidebar .nav-link.active {
+    background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%) !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.sidebar .nav-link i {
+    width: 25px; 
+    font-size: 1rem;
+}
+
+.sidebar hr {
+    margin: 15px 15px !important;
+    opacity: 0.1;
+}
+
+
+.text-danger {
+    margin-top: auto;
+    padding-bottom: 20px !important;
+}
+
+
+.custom-sidebar-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-sidebar-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
